@@ -1,0 +1,110 @@
+.customer-card-container{
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 12px;
+    padding: 10px;
+    height: 100%;
+}
+.customer-card-header-container{
+    display: flex;
+    width: 100%;
+}
+.customer-card-header>h3{
+    margin: 0;
+}
+.customer-card-header{
+    width: 50%;
+    margin-left: 20px;
+}
+.sort-by-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 50%;
+}
+.sort-by-container>label{
+    font-size: 14px;
+    margin-top: 1px;
+}
+.select-input, .select-input:hover, .select-input:focus{
+    border: none;
+}
+.customer-inner-card:hover{
+ background-color: #FFF7E8;
+ border-radius: 18px;
+}
+.item-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.avatar-container{
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.name-container>h5, .name-container>p{
+    margin: 0;
+}
+.name-container>p{
+    font-size: 12px;
+    padding-left: 10px;
+}
+.name-container>h5{
+    padding-left: 10px;
+}
+.name-container{
+    width: 60%;
+}
+.icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+.customer-inner-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin: 10px; */
+    padding: 8px;
+    border-radius: 12px;
+    width: 90%; 
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .customer-inner-card {
+      width: 90%
+    }
+    .customer-inner-card:hover{
+        background-color: #FFF7E8;
+        border-radius: 18px;
+       }
+  
+    .item-container {
+      width: 100%; 
+    }
+    .name-container>p{
+        font-size: 12px;
+        padding-left: 0px;
+    }
+    .name-container>h5{
+        padding-left: 0px;
+        padding-top: 4px;
+    }
+  }
+.customer-card-footer{
+    position: absolute;
+    bottom: 1px;
+    margin-left: 10px;
+    display: flex;
+}
+.customer-card-footer>button { 
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #c28109;
+}

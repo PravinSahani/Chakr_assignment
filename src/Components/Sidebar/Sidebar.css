@@ -1,0 +1,87 @@
+.sidebar-content{
+    position: relative;
+}
+
+ul{
+    list-style: none;
+    padding-left: 8px;
+}
+.sidebar-item{
+    padding: 8px;
+    font-size: 12px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile-label>h5{
+    margin: 0;
+    margin-left: 10px;
+}
+
+.sidebar-search-bar, .sidebar-header, .profile, .sidebar-settings, .logout{
+    /* padding-left: 8px; */
+}
+.fonts{
+    font-size: 12px;
+}
+.search-bar{
+    border-radius: 10px;
+    border: 1px solid;
+    height: 22px;
+    padding: 2px;
+    padding-left: 10px;
+}
+.items{
+    display: flex;
+    cursor: pointer
+}
+.item-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-settings{
+    display: flex;
+    cursor: pointer;
+}
+.settings-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout{
+    display: flex;
+    cursor: pointer;
+}
+.logout-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout-btn{
+    color: #FF0000;
+}
+.hover-effect:hover{
+    background-color: #f9fbfc;
+    border-radius: 20px;
+}
+.item-icon.active-item {
+    color:#ffac12 ;
+  }
+
+.profile-container{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   margin-top: 60px;
+   height: 130px
+
+
+}
+.logout-ul, .setting-ul, .settings-icon, .logout-icon{
+    margin: 0;
+    margin-top: 12px;
+}

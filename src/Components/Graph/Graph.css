@@ -1,0 +1,79 @@
+.graph-container{
+    /* width: 40%; */
+    margin-left: 10px;
+    height: 96%;
+  
+}
+.upper-card{
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height: 60%;
+    border-radius: 12px;
+    padding: 10px;
+}   
+.bottom-card{
+    display: flex;
+    height: 40%;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+.month-card, .year-card, .buyer-card{
+    width: 32%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+}
+.graph-card-header-container{
+    display: flex;
+    width: 100%;
+}
+.graph-card-header{
+    display: flex;
+    width: 100%;
+}
+.graph-card-header>h3{
+    margin: 0;
+}
+.sort-by-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 50%;
+}
+.sort-by-container>label{
+    font-size: 14px;
+    margin-top: 1px;
+}
+.select-input, .select-input:hover, .select-input:focus{
+    border: none;
+}
+.month-header>h5, .year-header>h5, .buyer-header>h5 {
+    margin: 0;
+    padding: 10px;
+    color: #656565;
+}
+.month-content>h4, .month-content>p, .buyer-content>h6, .buyer-content>p{
+    margin: 0;
+}
+.year-content>h4, .year-content>p{
+    margin: 0;
+}
+.month-content>h4, .year-content>h4{
+    color: #734A00;
+}
+.month-content>p, .year-content>p{
+    font-size: 16px;
+    color: #FFA500;
+}
+.month-content, .year-content{
+    margin-top: 10%;
+    padding: 10px;
+}
+.buyer-content{
+    padding: 8px;
+}
+.buyer-content>p{
+    font-size: 10px;
+}

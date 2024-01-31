@@ -1,0 +1,26 @@
+.chats-header>h4{
+ margin: 0;
+ padding-left: 10px;
+ padding-top: 10px;
+ padding-right: 10px;
+}
+.chats-header>p{
+    margin: 0;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.chats-avatar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.avatar-inner{
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: #FFF7E8;
+}

@@ -1,0 +1,32 @@
+/* Default styles */
+.Dashboard-container {
+    display: flex;
+    height:98vh;
+    margin-top: 0px;
+  }
+  
+  .sidebar-container {
+    flex: 0 0 16%;
+    height: 99%;
+    background-color: #fff;
+    padding-left: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+  }
+  
+  .content-container {
+    flex: 1;
+    height: 100%;
+    overflow: auto;
+  }
+
+  @media screen and (max-width: 1000px){
+    .sidebar-container{
+      display: none;
+    }
+  }
+    
+  
